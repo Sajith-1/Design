@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li{
+    text-decoration: none;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+}
+
+#pro{
+    padding-top: 3vw;
+}
+.head #pro{
+    padding-bottom: -2.5vw;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    place-content: center;
+    gap: 2.5vw;
+}
+
+.secimg{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 2vw;
+    margin-top: 6vw;
+    margin-left: 25vw;
+
+}
+form p {
+    font-size: 4vw;
+}
+form input{
+    width: 22vw;
+    margin-left: 4vw;
+}
+
+#thirdimg{
+    position: relative;
+   
+    height: 20vw;
+    width: 15vw;
+    margin-left: 42vw;
+    margin-bottom: 3vw;
+    top: -21vw;
+}
+
+img #small{
+    float: left;
+}
+
+
+  
+.contain{
+    position: relative;
+    top: -40vw;
+    left: 60vw;
+}
