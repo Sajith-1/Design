@@ -4,20 +4,46 @@
     font-family: sans-serif;
 }
 
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
 li{
-    text-decoration: none;
+    
+    list-style: none;
+    padding-right: 1vw;
+    left: 12vw;
+    top: 2vw;
 }
 
 .nav{
-    position: relative;
+    
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left:10%;
+
+}
+.navlist{
+    left: 34vw;
+}
+.nav h3{
+    left: 43vw;
+    border-top: 2vw;
+    border-bottom: 1vw;
 }
 
-#pro{
-    padding-top: 3vw;
+.head{
+    font-size: 4vw;
+    margin-left: 8vw;
+    margin-top: 4vw;
 }
-.head #pro{
-    padding-bottom: -2.5vw;
+#pro{
+    color:rgb(108, 104, 104);
+}
+.hrr #hr{
+    color: rebeccapurple;
 }
 
 .images{
@@ -25,6 +51,7 @@ li{
     grid-template-columns: auto auto auto auto auto;
     place-content: center;
     gap: 2.5vw;
+    margin-top: 2vw;
 }
 
 .secimg{
@@ -49,7 +76,7 @@ form input{
    
     height: 20vw;
     width: 15vw;
-    margin-left: 42vw;
+    margin-left: 47vw;
     margin-bottom: 3vw;
     top: -21vw;
 }
@@ -63,5 +90,18 @@ img #small{
 .contain{
     position: relative;
     top: -40vw;
-    left: 60vw;
+    left: 65vw;
+}
+.contain #bread{
+    top: -2vw;
+
+}
+button{
+    top: 2vw;
+    margin-bottom: 4vw;
+}
+#home{
+    border-top: .1vw solid black;
+    border-bottom: .1vw solid black;
+    height: 1vw;
 }
