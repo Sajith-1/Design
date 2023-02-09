@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-ul{
+.nav ul{
     display: flex;
     justify-content: space-between;
 }
@@ -17,13 +17,12 @@ li{
     top: 2vw;
 }
 
-.nav{
-    
+.nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-left:10%;
-
+    margin-left: 10%;
+    align-items: center;
 }
 .navlist{
     left: 34vw;
@@ -55,12 +54,10 @@ li{
 }
 
 .secimg{
-    position: relative;
-    display: grid;
-    grid-template-rows: auto auto;
     gap: 2vw;
-    margin-top: 6vw;
-    margin-left: 25vw;
+    margin-left: 7%;
+
+    display: flex;
 
 }
 form p {
@@ -68,40 +65,471 @@ form p {
 }
 form input{
     width: 22vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
+    border: none;
+    padding: 1vw 0.6vw;
+    margin: 0.5vw 5.1vw;
+    background-color: rgb(242, 239, 239);
 }
 
-#thirdimg{
-    position: relative;
-   
-    height: 20vw;
-    width: 15vw;
-    margin-left: 47vw;
-    margin-bottom: 3vw;
-    top: -21vw;
-}
+
 
 img #small{
     float: left;
 }
-
-
-  
-.contain{
-    position: relative;
-    top: -40vw;
-    left: 65vw;
+.card {
+    display: flex;
+    gap: 3%;
 }
-.contain #bread{
-    top: -2vw;
 
+.contain {
+    margin-top: 32%;
+    margin-left:12%
 }
-button{
-    top: 2vw;
-    margin-bottom: 4vw;
+
+img#thirdimg {
+    padding-top: 9%;
 }
-#home{
+#home {
     border-top: .1vw solid black;
     border-bottom: .1vw solid black;
+    height: 1.3vw;
+}
+
+form p{
+    margin-left: 5vw;
+}
+
+form #box{
+    margin-left: -5.6vw;
+    margin-top: 2vw;
+    background-color: rgb(248, 244, 244);
     height: 1vw;
+}
+.bform p{
+   margin-top: -1.5vw;
+   margin-left: 7vw;
+}
+
+.send{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    width: 10.4vw;
+    height: 3.2vw;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+ #bread{
+    margin-top: 1vw;
+    background-color: white;
+    border: 1px solid #e5dddd;
+    width: 11vw;
+    height: 2vw;
+}
+
+#let1{
+    position: relative;
+    margin-bottom: 2vw;
+    top: -32vw;
+    font-size: 14vw;
+    margin-left: 12vw;
+    color: rgb(238, 234, 234);
+
+}
+
+#letp{
+    position: relative;
+    top: -47vw;
+    right: -20vw;
+    font-size: 1.5vw;
+    color: #6a6767;
+    
+    
+}
+#let2{
+    position: relative;
+    margin-bottom: 2vw;
+    top: -57vw;
+    font-size: 14vw;
+    margin-left: 49vw;
+    color: rgb(238, 234, 234);
+
+}
+#letp2{
+    position: relative;
+    top: -72vw;
+    right: -60vw;
+    font-size: 1.5vw;
+    color: #6a6767;
+    
+    
+}
+.lift{
+    position: relative;
+    /* top: -62vw; */
+    left: 4vw;
+}
+.person{
+    position: absolute;
+    top: 5.04vw;
+    width: 47vw;
+    height: 18vw;
+    left: 30vw;
+}
+#chinese{
+    position:absolute;
+    top: 33vw;
+    right: 72vw;
+
+}
+.midfoot{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.midfoot button{
+    width: 4vw;
+    margin-left: 1.5%;
+
+}
+
+.midlet {
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    margin-left: 19%;
+}
+
+
+#let-1{
+    font-size: 15vw;
+    color: rgb(237, 231, 231);
+}
+
+.two {
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    margin-left: 15%;
+}
+.lett {
+    margin-left: 11%;
+    margin-top: 7%;
+}
+img #thirdimg {
+  
+    width: 16vw;
+    height: 20vw;
+    margin-top: 15%;
+}
+
+#midp{
+    font-size: 1.5vw;
+    word-spacing: 1vw;
+}
+#five{
+    color: rgb(179, 175, 175);
+}
+.footer{
+    width: 100%;
+    margin-top: 4%;
+    background-color: black;
+}
+.ullist {
+    list-style: none;
+    color: white;
+    margin-top: -7%;
+    margin-left: 25%;
+    
+    
+
+}
+.logo{
+    margin-top: 1vw;
+}
+.footer{
+    background-color:black;
+    justify-content:space-between;
+    width:100%;
+}
+.footer img{
+   width:7%;
+   margin-left:1vw;
+   padding-top:3vw;
+}
+.footer .end-1 h3{
+    position:absolute;
+    color:white;
+    font-family:‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    margin-left:17vw;
+    margin-top:-2vw;
+}
+.footer .end-1 ul{
+    color:white;
+    font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    list-style:none;
+    margin-top:-2vw;
+    margin-bottom:12vw;
+}
+.footer .end-1 li{
+    margin-left:15vw;
+    padding-top:1.5vw;
+}
+.footer .end-2 h3{
+    position:absolute;
+    color:white;
+    font-family:‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    margin-left:34vw;
+    margin-top:-26vw;
+}
+.footer .end-2 img{
+    width:1.1vw;
+    margin-left:34vw;
+    margin-top:-26vw;
+    margin-bottom:21vw;
+}
+.footer .end-2 .address{
+    width:11.5vw;
+    margin-left:3vw;
+}
+.footer .end-2 .phone{
+    position:absolute;
+    margin-left:-16vw;
+    margin-top:-19vw;
+    width:1.1vw;
+}
+.footer .end-2 .number{
+    position:absolute;
+    margin-left:-12vw;
+    margin-top:-19vw;
+    width:7vw;
+}
+.footer .end-2 .email{
+    position:absolute;
+    margin-left:-16vw;
+    margin-top:-13vw;
+    width:1.1vw;
+}
+.footer .end-2 .mailed{
+    position:absolute;
+    margin-left:-12vw;
+    margin-top:-13vw;
+    width:9vw;
+}
+.footer .end-3 h3{
+    position: absolute;
+    color:white;
+    margin-left:80vw;
+    width:10vw;
+    margin-top:-26vw;
+    
+}
+.footer .end-3 {
+    justify-content: space-between;
+    width:6vw;
+    margin-left:-4vw;
+}
+.icons {
+    position: absolute;
+    margin-left: 79vw;
+    margin-top: -26vw;
+    width: 12vw;
+}
+.footer .end-4 p{
+    color:white;
+    width:100%;
+    margin-bottom:2vw;
+    text-align: center;
+    margin-top: 12vw;
+}
+#lastp{
+    position: absolute;
+    margin-top: -3vw;
+    color: rgb(181, 178, 178);
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  
+  footer .brand-logo img {
+    width: 10vw;
+    margin-right: 5vw;
+    margin: 5vw;
+  }
+  
+  .foot-details .quick-links a {
+    color: var(--hopes);
+  }
+  
+  .foot-details {
+    padding: 5%;
+    width: 100%;
+  }
+  
+  .foot-details .link-add {
+    width: 50%;
+  }
+  h1 {
+    margin: 2.2vw 0;
+  }
+  
+  .foot-details .link-add .quick-links {
+    width: 100%;
+    line-height: 220%;
+    margin: 0 5%;
+  }
+  
+  .foot-details .link-add .address {
+    width: 67%;
+    line-height: 220%;
+    margin: 0 5%;
+  }
+  
+  .inp-new {
+    width: 50%;
+    align-items: right;
+    padding-left: 20%;
+    position: relative;
+  }
+  
+  .inp-new input[type="text"] {
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 1vw 1vw;
+    outline: none;
+    border: 2px solid var(--hopes);
+    background-color: var(--hopes);
+    color: var(--dracula);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.5vw;
+  }
+  
+  .inp-new #drop-down {
+    position: absolute;
+    right: 0;
+    top: 42%;
+    width: 8.5%;
+    border-radius: 0 4px 5px 0;
+  }
+    
+  .inp-new a img {
+    margin: 1vw;
+  }
+  
+  .inp-new img {
+    background-color: var(--primary);
+  }
+  
+  .copyright {
+    font-family: var(--font-5);
+    text-align: center;
+    padding: 3% 0;
+    box-shadow: 0 -2px 5px grey;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 2.6vw;
+    }
+    nav a {
+      display: none;
+    }
+  
+    .inner-card {
+      font-size: 2vw;
+    }
+  
+    .brand-logo img {
+      width: 10vw;
+    }
+  
+    .quality span {
+      font-size: 1.5vw;
+    }
+  
+    .quality {
+      flex-direction: column;
+      align-items: center;;
+    }
+    .q1 {
+      margin-bottom: 8vw;
+    }
+  
+    .q1 span,  .q2 span {
+      font-size: 2.2vw;
+      width: 20vw;
+    }
+  
+    .featured {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .connect {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .p a {
+      border-top: 1px solid black;
+      font-size: 2.6vw;
+    }
+  
+   
+  }
+  .foot-details .link-add .quick-links {
+    width: 100%;
+    line-height: 220%;
+    margin: 0 5%;
+    margin-left: 40%;
+    margin-top: -26%;
+}
+element.style {
+    margin-left: 78%;
+    margin-top: -44%;
+}
+
+.address #add{
+    margin-left: 105%;
+    margin-top: -43%;
+
+}
+
+.address #pho{
+    position:absolute;
+    right: 48.2vw;
+    
+
+
+}
+
+
+.inp-new {
+    width: 50%;
+    align-items: right;
+    padding-left: 20%;
+    position: relative;
+    margin-left: 45%;
+    margin-bottom: 13%;
+    margin-top: -15%;
+}
+*{
+    padding: 0;
+    margin: 0;
 }
